@@ -2185,8 +2185,8 @@ input, select, textarea {
 		-ms-align-items: -ms-stretch;
 		align-items: stretch;
 		height: 100%;
-		overflow-x: auto;
-		overflow-y: auto;
+		overflow-x: hidden;/*SCROLL-BAR*/
+		overflow-y: hidden;
 	}
 
 		.panel > * {
