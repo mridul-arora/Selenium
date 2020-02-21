@@ -2544,11 +2544,11 @@ input, select, textarea {
 		}
 
 		.panel.medium {
-			width: 50rem;
+			width: 45rem;
 		}
 
 		.panel.large {
-			width: 65rem;
+			width: 60rem;
 		}
 
 		.panel.small .span-0-25, .panel.medium .span-0-25, .panel.large .span-0-25 {
@@ -3410,7 +3410,7 @@ input, select, textarea {
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
 			justify-content: center;
-			padding: 3.5rem 3.5rem 2rem 3.5rem ;
+			padding: 2.5rem 2.5rem 2.5rem 2rem ;
 		}
 
 		.panel.spotlight .image {
