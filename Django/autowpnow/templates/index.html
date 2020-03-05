@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+{% load static %}
+<link rel='stylesheet' href="{% static 'main.css' %}">
+</head>
+
+<body>
+    <button onclick="location.href='{% url 'script' %}'">Execute Script</button>
+    {% if data %}
+    {{data | safe}}
+    {% endif %}
+    <br>
+    <hr><br>
+    <form id="form" action="/external/" method="post">
+        {% csrf_token %}
+        Input text:
+        <input type="text" name="param" required><br><br>
+        {{data_external}}
+        {{data1}}
+        <input type="submit" value="Execute External Python Script">
+        <br>
+        <hr><br>
+    </form>
+
+</body>
+
+</html>

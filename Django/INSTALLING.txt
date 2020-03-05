@@ -1,0 +1,18 @@
+CHECK WHETHER pip & python IS INSTALLED OR NOT:
+pip -v 
+python 
+
+INSTALL DJANGO:
+pip3 install django
+
+TO CREATE A PROJECT:
+django-admin startproject <name-of-the-project>
+
+GO TO THE DIRECTORY: 
+cd Documents\Selenium\Django\autowpnow
+
+RUN SERVER ON YOUR CHOICE OF PORT: 
+python manage.py runserver 127.0.0.1:8002
+	 
+
+
