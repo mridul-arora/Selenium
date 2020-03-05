@@ -1,0 +1,7 @@
+Methods available: 
+1. RPC thru python
+2. web2py 
+3. django web framework 
+4. flask web framework 
+5. exec function in php 
+6. mod_wsgi 
