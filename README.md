@@ -1,2 +1,2 @@
 # Selenium
-Only a repository for my codes. Might delete later.
+A very useful WhatsApp Automation Script
